@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&display=swap");
+
+:root {
+  /* font-size */
+
+  --fs-14: 14px;
+  --fs-xsm: 15px;
+  --fs-sm: 16px;
+  --fs-ms: 20px;
+  --fs-md: 22px;
+  --fs-md1: 37px;
+  --fs-xl: 55px;
+
+  /* color */
+  --text_clr: #f61529;
+  --bg_clr: #f61529;
+}
+
+.fs-14 {
+  font-size: var(--fs-14) !important;
+}
+.fs-xsm {
+  font-size: var(--fs-xsm) !important;
+}
+.fs-md1 {
+  font-size: var(--fs-md1) !important;
+}
+.fs-sm {
+  font-size: var(--fs-sm) !important;
+}
+.fs-ms {
+  font-size: var(--fs-ms) !important;
+}
+.fs-md {
+  font-size: var(--fs-md) !important;
+}
+.fs-xl {
+  font-size: var(--fs-xl) !important;
+}
+.ff-press {
+  font-family: "Press Start 2P", cursive !important;
+}
+.ff-plex {
+  font-family: "IBM Plex Mono", monospace !important;
+}
+
+.text_clr {
+  color: var(--text_clr) !important;
+}
+.bg_clr {
+  color: var(--bg_clr) !important;
+}
+
+@media (min-width: 992px) {
+  :root {
+    /* font-size */
+
+    --fs-14: 14px;
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-ms: 20px;
+    --fs-md: 28px;
+    --fs-md1: 37px;
+    --fs-xl: 85px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    /* font-size */
+
+    --fs-14: 14px;
+    --fs-xsm: 15px;
+    --fs-sm: 16px;
+    --fs-ms: 16px;
+    --fs-md: 20px;
+    --fs-md1: 37px;
+    --fs-xl: 30px;
+  }
+}

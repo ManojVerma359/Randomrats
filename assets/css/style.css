@@ -1,0 +1,70 @@
+@import url(./roots.css);
+
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  /* border: red solid; */
+}
+.mycontainer {
+  max-width: 1620px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+header{
+  background-image: url(../image/bg_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pt_52 {
+  padding-top: 25px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+.btnconnect {
+  width: 239px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 69.041px;
+  background: #f61529;
+}
+.pr-45 {
+  padding-right: 45px;
+}
+.pr-77{
+  padding-right: 77px;
+}
+@media (min-width: 1600px) {
+  .redline {
+    position: absolute;
+    width: 56%;
+    height: 2.187px;
+    background-color: #f61529;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width:768px) {
+  .pt_52 {
+    padding-top: 52px;
+  }  
+}
+@media (max-width:992px) {
+  .scroll{
+overflow-x: scroll !important;  
+  }  
+}
