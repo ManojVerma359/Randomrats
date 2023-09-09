@@ -48,16 +48,28 @@ h6 {
 .pr-77{
   padding-right: 77px;
 }
-@media (min-width: 1600px) {
-  .redline {
-    position: absolute;
-    width: 56%;
-    height: 2.187px;
-    background-color: #f61529;
-    display: flex;
-    align-items: center;
-  }
+.hide{
+  position: absolute;
+  top: 20%;
+  bottom: 0%;
+  left:13%;
+  bottom: 0%;
+  z-index: 3;
+  width: 21%;
 }
+@media (min-width:576px) {
+  .hide{
+    position: absolute;
+    top: 17%;
+    bottom: 0%;
+    left:13%;
+    bottom: 0%;
+    z-index: 3;
+    width: 20%;
+  }
+  
+}
+
 @media (min-width:768px) {
   .pt_52 {
     padding-top: 52px;
@@ -67,4 +79,37 @@ h6 {
   .scroll{
 overflow-x: scroll !important;  
   }  
+}
+@media (min-width:992px) {
+  .hide{
+    position: absolute;
+    top: 14%;
+    bottom: 0%;
+    left:13%;
+    bottom: 0%;
+    z-index: 3;
+    width: 20%;
+  }
+  
+}
+@media (min-width:1200px) {
+  .hide{
+    position: absolute;
+    top: 23%;
+    bottom: 0%;
+    left:13%;
+    bottom: 0%;
+    z-index: 3;
+  }
+  
+}
+@media (min-width: 1600px) {
+  .redline {
+    position: absolute;
+    width: 56%;
+    height: 2.187px;
+    background-color: #f61529;
+    display: flex;
+    align-items: center;
+  }
 }
